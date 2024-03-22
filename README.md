@@ -1,5 +1,7 @@
 # Manual for reproducing my steps
 
+**TO RUN `image_for_collecting_data` AND `duckietown_diploma_impl` IMAGE YOU NEED THE DUCKIEBOT ITSELF**
+
 ## Github
 Repository is available on my [GitHub](https://github.com/SPGC/DoubleProjectArtifact)
 
