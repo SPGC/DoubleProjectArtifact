@@ -1,7 +1,9 @@
 # Manual for reproducing my steps
 
 ## Github
-Repository is available on my [GitHub]() 
+Repository is available on my [GitHub](https://github.com/SPGC/DoubleProjectArtifact)
+
+The dataset described in report can also be found on my [GitHub](https://github.com/SPGC/DuckiebotDataset) 
 
 ## Prerequisites
 
@@ -39,7 +41,7 @@ You can also run the server in docker. Don't forget to specify port, in Docker p
 and data is saved in folder `/Data`
 
 Don't forget, that every time you change the light in the room you have to save images in a new folder,
-otherwise the marking up algorithm can have a lot of noice.
+otherwise the marking up algorithm can have a lot of noise.
 
 ### Running the Duckiebot image
 
@@ -76,7 +78,7 @@ dts start_gui_tools BOT_NAME
 rqt_image_view &
 ``` 
 
-After you see this lines in terminal you can open Joystick and press `a` key to start autonomous driving
+After you see this line in terminal `Node init successful` you can open Joystick and press `a` key to start autonomous driving
 
 In utility with images you can open `/BOT_NAME/camera_node/image/compressed` to see raw images or NN output
 
