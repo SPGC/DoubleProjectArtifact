@@ -1,0 +1,16 @@
+# Ignore everything
+**
+
+# Allow files and directories
+!assets
+!packages
+!dependencies-apt.txt
+!dependencies-py3.txt
+!dev-requirements.txt
+!launchers
+!requirements*.txt
+!whl_builder
+
+
+# YOUR FILES LISTED BELOW THIS LINE (IMPORTANT: PREPEND !)
+# ----------------------------------------------------------------------------
